@@ -1,6 +1,19 @@
-## Clone thie repository, then run `cd 'destination-folder-name'`, and then `npm install`
-## After installing you can run this project. To do so run(in root folder):
-### In first terminal:
-##### `node REST`
-### In second terminal:
-##### `npm run start`
+# SchoolPlanner
+
+### Installation
+Clone this repo, then run:
+```sh
+$ cd 'destination folder'
+$ npm install
+```
+Then in first terminal window run
+
+```sh
+$ npm start
+```
+
+And in second terminal window
+
+```sh
+$ node REST
+```
