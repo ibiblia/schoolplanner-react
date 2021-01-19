@@ -9,11 +9,11 @@ $ npm install
 Then in first terminal window run
 
 ```sh
-$ npm start
+$ node REST
 ```
-
 And in second terminal window
 
 ```sh
-$ node REST
+$ npm start
 ```
+
