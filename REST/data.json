@@ -1,0 +1,103 @@
+{
+	"rooms": [
+		"110", "111", "120", "121"
+	],
+	"groups": [
+		"1a", "1b", "1c", "2a", "2b","3a", "3b", "4a", "4b"
+	],
+	"classes": [
+		"mat", "geo", "eng", "phys", "biol"
+	],
+	"teachers": [
+		"kowalski", "nowak", "smith", "clarkson", "may", "hammond", "atkinson"
+	],
+	"slots": [
+		{
+			"value": 1,
+			"displayValue": "8:00-8:45"
+		},
+		{
+			"value": 2,
+			"displayValue": "8:55-9:40"
+		},
+		{
+			"value": 3,
+			"displayValue": "9:50-11:35"
+		},
+		{
+			"value": 4,
+			"displayValue": "11:55-12:40"
+		},
+		{
+			"value": 5,
+			"displayValue": "12:50-13:35"
+		},
+		{
+			"value": 6,
+			"displayValue": "13:45-14:30"
+		},
+		{
+			"value": 7,
+			"displayValue": "14:40-15:25"
+		},
+		{
+			"value": 8,
+			"displayValue": "15:35-16:20"
+		},
+		{
+			"value": 9,
+			"displayValue": "16:30-17:15"
+		}
+	],
+	"activities": [
+		{
+			"room":"110",
+			"group": "1a",
+			"subject": "mat",
+			"slot": 3,
+			"teacher": "kowalski",
+			"dayOfWeek": "mon"
+		},
+		{
+			"room":"110",
+			"group": "1b",
+			"subject": "biol",
+			"slot": 6,
+			"teacher": "nowak",
+			"dayOfWeek": "tue"
+		},
+		{
+			"room":"110",
+			"group": "1a",
+			"subject": "mat",
+			"slot": 1,
+			"teacher": "kowalski",
+			"dayOfWeek": "tue"
+		},
+		{
+			"room":"110",
+			"group": "1b",
+			"subject": "biol",
+			"slot": 8,
+			"teacher": "nowak",
+			"dayOfWeek": "thu"
+		},
+		{
+			"room":"111",
+			"group": "1a",
+			"subject": "mat",
+			"slot": 2,
+			"teacher": "kowalski",
+			"dayOfWeek": "tue"
+		},
+		{
+			"room":"120",
+			"group": "1b",
+			"subject": "biol",
+			"slot": 4,
+			"teacher": "nowak",
+			"dayOfWeek": "fri"
+		}
+	]
+}
+
