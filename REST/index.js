@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
-  res.send(data);
+  res.json(data);
 });
 
 const findIfExists = (bodyActivity) => {
