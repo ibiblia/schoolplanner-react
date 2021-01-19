@@ -1,6 +1,5 @@
 import { BASE_URL } from "../../shared/constants";
 import DropDown from "../../shared/DropDown/dropDown";
-import './entryDialog.css';
 
 export default function EntryDialog({
     setShowEntryDialog,
